@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+}
+
+#container {
+    border: black 1px solid;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-row: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.boxes {
+    border: black 1px solid;
+    display: grid;
+    width: 95%;
+}
+
+#head { 
+    display: flex;
+    height: 40px;
+
+}
+
+#Microsoft {
+    display: flex;
+    margin-left: 5%;
+}
+
+#Imágenes {
+    display: flex;
+}
+
+#Vídeos {
+    display: flex;
+}
+
+#Catala {
+    display: flex;
+}
+
+#English{
+    display: flex;
+}
+
+#Iniciar {
+    display: flex;
+}
+
+#Usuario {
+    display: flex;
+}
+
+#Rewards {
+    display: flex;
+}
+
+#IconoRewards {
+    display: flex;
+}
+
+#barras {
+    display: flex;
+    margin-right:10%;
+}
+
+
+#main {
+    display: flex;
+}
+
+#footer {
+    display: flex;
+
+}
